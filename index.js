@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import got from "got";
 import meow from "meow";
 import clipboard from 'clipboardy';
@@ -40,6 +41,6 @@ if(cli.flags.copy) {
     clipboard.writeSync(text);
     text += ' - Copied! ✅';
 }
-spinner.reset();
 spinner.clear();
+spinner.reset();
 console.log(text);

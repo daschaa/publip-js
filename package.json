@@ -1,12 +1,12 @@
 {
-  "name": "publicip",
-  "version": "0.0.1",
+  "name": "publip",
+  "version": "0.0.5",
   "description": "⚙️ Fetch and output the public ip address",
   "main": "index.js",
   "bin": "./index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node .",
     "bundle": "ncc build index.js -o dist"
   },
   "compilerOptions": {
