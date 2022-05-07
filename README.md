@@ -1,5 +1,6 @@
 # 🏠 publicip
 <strong>Get your public ip adress and print it to the console.</strong>
+
 ## 👨🏻‍🔧 Installation
 ```
 npm i -g publip
@@ -15,3 +16,6 @@ Run the command in the terminal to get the public ip printed out. Add `-c` to ge
 > publip -c
 95.90.201.234 - Copied! ✅
 ```
+
+## 🖥 Demo
+![](https://github.com/daschaa/publip-js/raw/main/demo/demo.gif)
